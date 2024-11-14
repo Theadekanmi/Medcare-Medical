@@ -454,13 +454,14 @@ textarea{
     display: flex;
     padding: 5%;
     gap: 15px;
+    background-color: rgb(51, 51, 51);
 }
 .cont-item{
     width: 15%;
     height: 280px;
 }
 .cont-item h1{
-    
+    color: #99ccff;;
     font-size: 17px;
     line-height: 2;
 }
@@ -468,6 +469,9 @@ textarea{
     font-size: 15px;
     color:  rgb(163, 164, 164);
     line-height: 2;
+}
+.cont-item p:hover{
+    color: rgb(167, 0, 179);;
 }
 form {
     display: flex;
